@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <titl>Tute Dude Assignment 1</title>
+</head>
+<style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        
+        }
+    </style>
+<body>
+    <h2>🤠Welcome to <mark>Sandesh</mark>🤠</h2>
+
+    <p><i>A project Designed by Sandesh to Learn Html</i></p>
+    <p>Best Sandesh In town since 2020</p>
+    <ul>
+        <li><a href="#about">About </a></li>
+        <li><a href="#our">Our Menu</a></li>
+        <li><a href="#taco">Toco Trivia</a></li>
+        <li><a href="#ext">Extras</a></li>
+        <li><a href="#feed">Feedback Form</a></li>
+        <li><a href="#cont">Contact</a></li>
+    </ul>
+    <img src="https://tse3.mm.bing.net/th/id/OIP.Dqv9vcF1RVZZ7EiJHly0rwHaD4?pid=Api&P=0&h=180" alt=""
+    width="300" height="200">
+    <hr>
+    <h3 id="about"><b>About TD</b></h3>
+    <p>Sandesh Was Fonded in 2020. this demo Projrct Was TuteDude for learning all majar HTML tags📟. <br>Level Up Your Career With Expert Mentoship & Internship For Free</p>
+    <hr>
+    <h2 id="our">Our Menu</h2>
+    <hr>
+
+    <table>
+    <caption><b>Sandesh Complete Taco Menu</b></caption>
+    <tr>
+      <th rowspan="2" colspan="2">Category</th>
+      <th rowspan="2" colspan="3">Type</th>
+      <th colspan="2">small Portion</th>
+      <th colspan="2">Large Portion</th>
+    </tr>
+    <tr>
+      <td>qty</td>
+      <td>Price</td>
+      <td>qty</td>
+      <td>Price</td>
+    </tr>
+    <tr>
+      <td rowspan="4" colspan="2">Sandesh</td>
+    </tr>
+    <tr>
+      <td colspan="3">Sand (Beef)</td>
+      <td>1</td>
+      <td>200</td>
+      <td>3</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td colspan="3">Sand (Chicken)</td>
+      <td>23</td>
+      <td>2300</td>
+      <td>4</td>
+      <td>5400</td>
+    </tr>
+    <tr>
+      <td colspan="3">Crunchy (Veggie) <br> Nutrition Info<table border="">
+        <tr>
+          <th>Nutrient</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+        <td>Calories</td>
+        <td>150 kcal</td>
+      </tr>
+      <tr>
+        <td>Drink</td>
+        <td>5 g</td>
+      </tr>
+      <tr>
+        <td>Fiber</td>
+        <td>4 g</td>
+      </tr>
+      </table></td>
+      <td>1</td>
+      <td>200</td>
+      <td>3</td>
+      <td>350</td>
+    </tr>
+    <tr>
+      <td rowspan="2" colspan="2">Solf Sandesh</td>
+      <td colspan="3">Soft (Beef)</td>
+      <td>2</td>
+      <td>450</td>
+      <td>4</td>
+      <td>750</td>
+    </tr>
+    <tr>
+      <td colspan="3">Soft (Veggie)</td>
+      <td>2</td>
+      <td>250</td>
+      <td>3</td>
+      <td>450</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2">Combos</td>
+      <td colspan="2">2 Crunchy + Drink</td>
+      <td colspan="3" rowspan="">460</td>
+      <td colspan="2" rowspan="2">N/A</td>
+    </tr>
+    <tr>
+      <td colspan="3">2 Soft + Drink <br>Combo Meals Nutrition <br>Fact<table border="">
+        <tr>
+          <td>Item</td>
+          <td>Calories</td>
+          <td>suger</td>
+        </tr>
+        <tr>
+          <td>Soft taco</td>
+          <td>200 kcol</td>
+          <td>2 g</td>
+        </tr>
+        <tr>
+          <td>Drink</td>
+          <td>120 kcal</td>
+          <td>25 g</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>320 kcol</td>
+          <td>27 g</td>
+        </tr>
+
+      </table>
+    </td>
+    <td colspan="2">530</td>
+    </tr>
+    <tr>
+      <td rowspan="2" colspan="2" id="ext">Extras</td>
+      <td colspan="3">Chips & salsa</td>
+      <td colspan="4">400</td>
+    </tr>
+    <tr>
+      <td colspan="3">Guacamole</td>
+      <td colspan="4">250</td>
+    </tr>
+    <tr><td colspan="9">Average Meal Price Range : 200 - 500</td></tr>
+</table>
+    <p><a href="#">Back to Top</a></p>
+    <hr>
+    <h1 id="taco"><b>Taco Trivia</b></h1>
+    <p>♫ when did Sandesh First Apper In the United states</p>
+    <hr>
+    <h2><b>Media Fun</b></h2>
+    <p>Listen To Taco Music</p>
+    <audio controls>
+        <source src="horse.org" type="audio/ogg">
+        <source src="#" type="audio/mpeg">
+    </audio>
+    <p>Watch Toco video</p>
+    <video width="300" height="240" controls>
+        <source src="#" type="video/mp4">
+        <source src="mvovie.ogg" type="video/ogg">
+    </video>
+<hr>
+<h2 id="feed">Give Us Your Feedback</h2>
+<label for="">Name</label>
+<input type="text">
+<br><br>
+<label for="">Email:</label>
+<input type="mail">
+<br><br>
+<label for="">favorite Taco</label>
+<select type="">
+    <option value="">Country</option>
+    </select>
+    <br><br>
+    <label for="">Message:-</label> <br>
+<textarea name="" id="" rows="9" cols="40" placeholder="Please fild the Form"></textarea>
+<hr>
+<h2 id="cont">Contact Us</h2>
+<P><i>Sandesh Fulore</i></P>
+<p><i>At Kalyan Mumbai</i></p>
+<p><i><a href="mailTo">Sandeshfulore0@gmail.com</a></i></p>
+</body>
+</html>
